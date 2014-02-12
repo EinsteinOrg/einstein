@@ -1,0 +1,9 @@
+D:\workspace\einstein\code\framwork\Platform\bin\Debug\Platform.exe
+D:\workspace\einstein\code\framwork\Platform\bin\Debug\Platform.pdb
+D:\workspace\einstein\code\framwork\Platform\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\workspace\einstein\code\framwork\Platform\obj\x86\Debug\Platform.Form1.resources
+D:\workspace\einstein\code\framwork\Platform\obj\x86\Debug\Platform.Properties.Resources.resources
+D:\workspace\einstein\code\framwork\Platform\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\workspace\einstein\code\framwork\Platform\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\workspace\einstein\code\framwork\Platform\obj\x86\Debug\Platform.exe
+D:\workspace\einstein\code\framwork\Platform\obj\x86\Debug\Platform.pdb

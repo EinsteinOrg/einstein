@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="30064f62-ee92-486b-b292-320b8d20c3cf" name="prosper@PROSPER-PC 2013-12-23 19:52:29" runUser="prosper-PC\prosper" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="ea455c11-1cff-47b2-8f0c-cc9927fcf5e7">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="prosper_PROSPER-PC 2013-12-23 19_52_29">
+      <DeploymentItem filename="D:\workspace\einstein\code\framwork\Einstein.Data\bin\Debug\Einstein.Data.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-12-23T19:52:29.3331368+08:00" queuing="2013-12-23T19:52:29.3611384+08:00" start="2013-12-23T19:52:29.3841398+08:00" finish="2013-12-23T19:52:29.8671674+08:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestAdd" storage="d:\workspace\einstein\code\framwork\einstein.unittest\bin\debug\einstein.unittest.dll" id="71af9875-f59a-33ba-bcfb-b82eca1b7060">
+      <Execution id="8aaf9532-0c71-4691-b2b3-65ce11927e55" />
+      <TestMethod codeBase="D:/workspace/einstein/code/framwork/Einstein.UnitTest/bin/Debug/Einstein.UnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Einstein.UnitTest.MenuInfoDALTest, Einstein.UnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAdd" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="71af9875-f59a-33ba-bcfb-b82eca1b7060" executionId="8aaf9532-0c71-4691-b2b3-65ce11927e55" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="8aaf9532-0c71-4691-b2b3-65ce11927e55" testId="71af9875-f59a-33ba-bcfb-b82eca1b7060" testName="TestAdd" computerName="PROSPER-PC" duration="00:00:00.1993888" startTime="2013-12-23T19:52:29.3941403+08:00" endTime="2013-12-23T19:52:29.8381657+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8aaf9532-0c71-4691-b2b3-65ce11927e55">
+    </UnitTestResult>
+  </Results>
+</TestRun>

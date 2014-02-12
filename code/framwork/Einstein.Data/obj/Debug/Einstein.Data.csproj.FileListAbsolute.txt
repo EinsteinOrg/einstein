@@ -1,0 +1,10 @@
+D:\workspace\einstein\code\framwork\Einstein.Data\bin\Debug\Einstein.Data.dll.config
+D:\workspace\einstein\code\framwork\Einstein.Data\bin\Debug\Einstein.Data.dll
+D:\workspace\einstein\code\framwork\Einstein.Data\bin\Debug\Einstein.Data.pdb
+D:\workspace\einstein\code\framwork\Einstein.Data\bin\Debug\EntityFramework.dll
+D:\workspace\einstein\code\framwork\Einstein.Data\bin\Debug\EntityFramework.xml
+D:\workspace\einstein\code\framwork\Einstein.Data\obj\Debug\ResolveAssemblyReference.cache
+D:\workspace\einstein\code\framwork\Einstein.Data\obj\Debug\Einstein.Data.dll
+D:\workspace\einstein\code\framwork\Einstein.Data\obj\Debug\Einstein.Data.pdb
+D:\workspace\einstein\code\framwork\Einstein.Data\bin\Debug\Einstein.Utility.dll
+D:\workspace\einstein\code\framwork\Einstein.Data\bin\Debug\Einstein.Utility.pdb

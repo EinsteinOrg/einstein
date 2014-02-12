@@ -1,0 +1,26 @@
+C:\Users\prosper\Documents\DotNetBar WinForms Samples\MetroBill\C#\bin\Debug\MetroBill.exe
+C:\Users\prosper\Documents\DotNetBar WinForms Samples\MetroBill\C#\bin\Debug\MetroBill.pdb
+C:\Users\prosper\Documents\DotNetBar WinForms Samples\MetroBill\C#\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\prosper\Documents\DotNetBar WinForms Samples\MetroBill\C#\obj\Debug\MetroBill.ClientControl.resources
+C:\Users\prosper\Documents\DotNetBar WinForms Samples\MetroBill\C#\obj\Debug\MetroBill.InvoiceControl.resources
+C:\Users\prosper\Documents\DotNetBar WinForms Samples\MetroBill\C#\obj\Debug\MetroBill.MainForm.resources
+C:\Users\prosper\Documents\DotNetBar WinForms Samples\MetroBill\C#\obj\Debug\MetroBill.Properties.Resources.resources
+C:\Users\prosper\Documents\DotNetBar WinForms Samples\MetroBill\C#\obj\Debug\MetroBill.StartControl.resources
+C:\Users\prosper\Documents\DotNetBar WinForms Samples\MetroBill\C#\obj\Debug\MetroBill.StartupForm.resources
+C:\Users\prosper\Documents\DotNetBar WinForms Samples\MetroBill\C#\obj\Debug\ResGen.read.1.tlog
+C:\Users\prosper\Documents\DotNetBar WinForms Samples\MetroBill\C#\obj\Debug\ResGen.write.1.tlog
+C:\Users\prosper\Documents\DotNetBar WinForms Samples\MetroBill\C#\obj\Debug\MetroBill.exe
+C:\Users\prosper\Documents\DotNetBar WinForms Samples\MetroBill\C#\obj\Debug\MetroBill.pdb
+D:\workspace\einstein\code\framwork\metro\obj\Debug\MetroBill.exe
+D:\workspace\einstein\code\framwork\metro\obj\Debug\MetroBill.pdb
+D:\workspace\einstein\code\framwork\metro\bin\Debug\MetroBill.exe
+D:\workspace\einstein\code\framwork\metro\bin\Debug\MetroBill.pdb
+D:\workspace\einstein\code\framwork\metro\obj\Debug\ResolveAssemblyReference.cache
+D:\workspace\einstein\code\framwork\metro\obj\Debug\MetroBill.ClientControl.resources
+D:\workspace\einstein\code\framwork\metro\obj\Debug\MetroBill.InvoiceControl.resources
+D:\workspace\einstein\code\framwork\metro\obj\Debug\MetroBill.MainForm.resources
+D:\workspace\einstein\code\framwork\metro\obj\Debug\MetroBill.Properties.Resources.resources
+D:\workspace\einstein\code\framwork\metro\obj\Debug\MetroBill.StartControl.resources
+D:\workspace\einstein\code\framwork\metro\obj\Debug\MetroBill.StartupForm.resources
+D:\workspace\einstein\code\framwork\metro\obj\Debug\ResGen.read.1.tlog
+D:\workspace\einstein\code\framwork\metro\obj\Debug\ResGen.write.1.tlog

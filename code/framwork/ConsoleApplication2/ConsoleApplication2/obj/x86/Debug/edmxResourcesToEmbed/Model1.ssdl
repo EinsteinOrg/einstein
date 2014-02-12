@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EinsteinModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2005" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="EinsteinModelStoreContainer">
+    <EntitySet Name="CardInfo" EntityType="EinsteinModel.Store.CardInfo" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="DeptInfo" EntityType="EinsteinModel.Store.DeptInfo" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MachineManageInfo" EntityType="EinsteinModel.Store.MachineManageInfo" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MechineInfo" EntityType="EinsteinModel.Store.MechineInfo" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MenuAuthInfo" EntityType="EinsteinModel.Store.MenuAuthInfo" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="MenuInfo" EntityType="EinsteinModel.Store.MenuInfo" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="RoleAuth" EntityType="EinsteinModel.Store.RoleAuth" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="RoleInfo" EntityType="EinsteinModel.Store.RoleInfo" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="RoleUserInfo" EntityType="EinsteinModel.Store.RoleUserInfo" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SystemLog" EntityType="EinsteinModel.Store.SystemLog" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="UserInfo" EntityType="EinsteinModel.Store.UserInfo" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="UserTypeInfo" EntityType="EinsteinModel.Store.UserTypeInfo" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="CardInfo">
+    <Key>
+      <PropertyRef Name="CardID" />
+    </Key>
+    <Property Name="CardID" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="PhysicalID" Type="varchar" MaxLength="50" />
+    <Property Name="Status" Type="int" Nullable="false" />
+    <Property Name="ActivateDate" Type="datetime" />
+    <Property Name="ActivatePerson" Type="nvarchar" MaxLength="50" />
+    <Property Name="CancelDate" Type="datetime" />
+    <Property Name="CancelPerson" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="DeptInfo">
+    <Key>
+      <PropertyRef Name="DeptID" />
+    </Key>
+    <Property Name="DeptID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="DeptName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="ParentID" Type="int" Nullable="false" />
+    <Property Name="Desc" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="MachineManageInfo">
+    <Key>
+      <PropertyRef Name="ManageDeptID" />
+    </Key>
+    <Property Name="ManageDeptID" Type="int" Nullable="false" />
+    <Property Name="ManageDeptName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="ParentID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MechineInfo">
+    <Key>
+      <PropertyRef Name="MechineID" />
+    </Key>
+    <Property Name="MechineID" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Location" Type="nvarchar" MaxLength="100" />
+    <Property Name="ManageDeptID" Type="int" Nullable="false" />
+    <Property Name="MachineTypeID" Type="int" Nullable="false" />
+    <Property Name="CommunicationInterface" Type="int" Nullable="false" />
+    <Property Name="IPAdress" Type="nvarchar" MaxLength="50" />
+    <Property Name="SubnetMask" Type="nvarchar" MaxLength="50" />
+    <Property Name="Gateway" Type="nvarchar" MaxLength="50" />
+    <Property Name="Port" Type="int" />
+    <Property Name="Desc" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="MenuAuthInfo">
+    <Key>
+      <PropertyRef Name="ButtonID" />
+    </Key>
+    <Property Name="ButtonID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="BelongMenu" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="ButtonName" Type="nvarchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="MenuInfo">
+    <Key>
+      <PropertyRef Name="MenuID" />
+    </Key>
+    <Property Name="MenuID" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="MenuName" Type="nvarchar" Nullable="false" MaxLength="10" />
+    <Property Name="ParentID" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="ShortcutKey" Type="char" MaxLength="1" />
+    <Property Name="IconName" Type="nvarchar" MaxLength="50" />
+    <Property Name="ObjectName" Type="nvarchar" MaxLength="50" />
+    <Property Name="ObjectParameters" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="RoleAuth">
+    <Key>
+      <PropertyRef Name="RoleID" />
+      <PropertyRef Name="MenuID" />
+      <PropertyRef Name="ButtonID" />
+    </Key>
+    <Property Name="RoleID" Type="int" Nullable="false" />
+    <Property Name="MenuID" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="ButtonID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="RoleInfo">
+    <Key>
+      <PropertyRef Name="RoleID" />
+    </Key>
+    <Property Name="RoleID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="RoleName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Desc" Type="nvarchar" MaxLength="500" />
+    <Property Name="CreatePerson" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="UpdatePerson" Type="nvarchar" MaxLength="50" />
+    <Property Name="UpdateTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="RoleUserInfo">
+    <Key>
+      <PropertyRef Name="RoleID" />
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="RoleID" Type="int" Nullable="false" />
+    <Property Name="UserID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SystemLog">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Operator" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="OperateTime" Type="datetime" Nullable="false" />
+    <Property Name="Detail" Type="nvarchar" Nullable="false" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="UserInfo">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="UserName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="DeptID" Type="int" Nullable="false" />
+    <Property Name="CardID" Type="nvarchar" MaxLength="50" />
+    <Property Name="PhysicalID" Type="nvarchar" MaxLength="50" />
+    <Property Name="UserTypeID" Type="int" />
+    <Property Name="Sex" Type="int" Nullable="false" />
+    <Property Name="PhoneNumber" Type="nvarchar" MaxLength="50" />
+    <Property Name="ActivateDate" Type="datetime" Nullable="false" />
+    <Property Name="CancelDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="UserTypeInfo">
+    <Key>
+      <PropertyRef Name="UserTypeID" />
+    </Key>
+    <Property Name="UserTypeID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="UserTypeName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Desc" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+</Schema>

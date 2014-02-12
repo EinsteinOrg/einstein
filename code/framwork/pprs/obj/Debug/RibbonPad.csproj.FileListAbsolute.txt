@@ -1,0 +1,60 @@
+D:\DotNetBar WinForms Samples\RibbonPad\CS\bin\Debug\RibbonPad.exe
+D:\DotNetBar WinForms Samples\RibbonPad\CS\bin\Debug\RibbonPad.pdb
+D:\DotNetBar WinForms Samples\RibbonPad\CS\obj\Debug\ResolveAssemblyReference.cache
+D:\DotNetBar WinForms Samples\RibbonPad\CS\obj\Debug\Ribbonpad.BalloonSearch.resources
+D:\DotNetBar WinForms Samples\RibbonPad\CS\obj\Debug\Ribbonpad.ColorPicker.resources
+D:\DotNetBar WinForms Samples\RibbonPad\CS\obj\Debug\Ribbonpad.frmAbout.resources
+D:\DotNetBar WinForms Samples\RibbonPad\CS\obj\Debug\Ribbonpad.frmDocument.resources
+D:\DotNetBar WinForms Samples\RibbonPad\CS\obj\Debug\Ribbonpad.frmMain.resources
+D:\DotNetBar WinForms Samples\RibbonPad\CS\obj\Debug\Ribbonpad.Properties.Resources.resources
+D:\DotNetBar WinForms Samples\RibbonPad\CS\obj\Debug\ResGen.read.1.tlog
+D:\DotNetBar WinForms Samples\RibbonPad\CS\obj\Debug\ResGen.read.4.tlog
+D:\DotNetBar WinForms Samples\RibbonPad\CS\obj\Debug\ResGen.read.5.tlog
+D:\DotNetBar WinForms Samples\RibbonPad\CS\obj\Debug\ResGen.read.7.tlog
+D:\DotNetBar WinForms Samples\RibbonPad\CS\obj\Debug\ResGen.write.1.tlog
+D:\DotNetBar WinForms Samples\RibbonPad\CS\obj\Debug\ResGen.write.4.tlog
+D:\DotNetBar WinForms Samples\RibbonPad\CS\obj\Debug\ResGen.write.5.tlog
+D:\DotNetBar WinForms Samples\RibbonPad\CS\obj\Debug\ResGen.write.7.tlog
+D:\DotNetBar WinForms Samples\RibbonPad\CS\obj\Debug\RibbonPad.exe
+D:\DotNetBar WinForms Samples\RibbonPad\CS\obj\Debug\RibbonPad.pdb
+D:\Dpan\DotNetBar WinForms Samples\RibbonPad\CS\bin\Debug\RibbonPad.exe
+D:\Dpan\DotNetBar WinForms Samples\RibbonPad\CS\bin\Debug\RibbonPad.pdb
+D:\Dpan\DotNetBar WinForms Samples\RibbonPad\CS\obj\Debug\ResolveAssemblyReference.cache
+D:\Dpan\DotNetBar WinForms Samples\RibbonPad\CS\obj\Debug\Ribbonpad.BalloonSearch.resources
+D:\Dpan\DotNetBar WinForms Samples\RibbonPad\CS\obj\Debug\Ribbonpad.ColorPicker.resources
+D:\Dpan\DotNetBar WinForms Samples\RibbonPad\CS\obj\Debug\Ribbonpad.frmAbout.resources
+D:\Dpan\DotNetBar WinForms Samples\RibbonPad\CS\obj\Debug\Ribbonpad.frmDocument.resources
+D:\Dpan\DotNetBar WinForms Samples\RibbonPad\CS\obj\Debug\Ribbonpad.frmMain.resources
+D:\Dpan\DotNetBar WinForms Samples\RibbonPad\CS\obj\Debug\Ribbonpad.Properties.Resources.resources
+D:\Dpan\DotNetBar WinForms Samples\RibbonPad\CS\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\Dpan\DotNetBar WinForms Samples\RibbonPad\CS\obj\Debug\GenerateResource-ResGen.read.4.tlog
+D:\Dpan\DotNetBar WinForms Samples\RibbonPad\CS\obj\Debug\GenerateResource-ResGen.read.6.tlog
+D:\Dpan\DotNetBar WinForms Samples\RibbonPad\CS\obj\Debug\ResGen.read.1.tlog
+D:\Dpan\DotNetBar WinForms Samples\RibbonPad\CS\obj\Debug\ResGen.read.4.tlog
+D:\Dpan\DotNetBar WinForms Samples\RibbonPad\CS\obj\Debug\ResGen.read.5.tlog
+D:\Dpan\DotNetBar WinForms Samples\RibbonPad\CS\obj\Debug\ResGen.read.7.tlog
+D:\Dpan\DotNetBar WinForms Samples\RibbonPad\CS\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\Dpan\DotNetBar WinForms Samples\RibbonPad\CS\obj\Debug\GenerateResource-ResGen.write.4.tlog
+D:\Dpan\DotNetBar WinForms Samples\RibbonPad\CS\obj\Debug\GenerateResource-ResGen.write.6.tlog
+D:\Dpan\DotNetBar WinForms Samples\RibbonPad\CS\obj\Debug\ResGen.write.1.tlog
+D:\Dpan\DotNetBar WinForms Samples\RibbonPad\CS\obj\Debug\ResGen.write.4.tlog
+D:\Dpan\DotNetBar WinForms Samples\RibbonPad\CS\obj\Debug\ResGen.write.5.tlog
+D:\Dpan\DotNetBar WinForms Samples\RibbonPad\CS\obj\Debug\ResGen.write.7.tlog
+D:\Dpan\DotNetBar WinForms Samples\RibbonPad\CS\obj\Debug\RibbonPad.exe
+D:\Dpan\DotNetBar WinForms Samples\RibbonPad\CS\obj\Debug\RibbonPad.pdb
+C:\Users\prosper\Downloads\DotNetBar WinForms Samples\DotNetBar WinForms Samples\RibbonPad\CS\obj\Debug\RibbonPad.exe
+C:\Users\prosper\Downloads\DotNetBar WinForms Samples\DotNetBar WinForms Samples\RibbonPad\CS\obj\Debug\RibbonPad.pdb
+D:\workspace\einstein\code\framwork\pprs\obj\Debug\RibbonPad.exe
+D:\workspace\einstein\code\framwork\pprs\obj\Debug\RibbonPad.pdb
+D:\workspace\einstein\code\framwork\pprs\bin\Debug\RibbonPad.exe
+D:\workspace\einstein\code\framwork\pprs\bin\Debug\RibbonPad.pdb
+D:\workspace\einstein\code\framwork\pprs\obj\Debug\ResolveAssemblyReference.cache
+D:\workspace\einstein\code\framwork\pprs\obj\Debug\Ribbonpad.BalloonSearch.resources
+D:\workspace\einstein\code\framwork\pprs\obj\Debug\Ribbonpad.ColorPicker.resources
+D:\workspace\einstein\code\framwork\pprs\obj\Debug\Ribbonpad.frmAbout.resources
+D:\workspace\einstein\code\framwork\pprs\obj\Debug\Ribbonpad.frmDocument.resources
+D:\workspace\einstein\code\framwork\pprs\obj\Debug\Ribbonpad.frmMain.resources
+D:\workspace\einstein\code\framwork\pprs\obj\Debug\Ribbonpad.Properties.Resources.resources
+D:\workspace\einstein\code\framwork\pprs\obj\Debug\ResGen.read.1.tlog
+D:\workspace\einstein\code\framwork\pprs\obj\Debug\ResGen.write.1.tlog
+D:\workspace\einstein\code\framwork\pprs\obj\Debug\ResGen.read.4.tlog

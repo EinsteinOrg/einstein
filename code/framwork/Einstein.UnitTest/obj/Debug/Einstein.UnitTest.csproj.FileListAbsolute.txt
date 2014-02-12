@@ -1,0 +1,8 @@
+D:\workspace\einstein\code\framwork\Einstein.UnitTest\bin\Debug\Einstein.UnitTest.dll
+D:\workspace\einstein\code\framwork\Einstein.UnitTest\bin\Debug\Einstein.UnitTest.pdb
+D:\workspace\einstein\code\framwork\Einstein.UnitTest\obj\Debug\ResolveAssemblyReference.cache
+D:\workspace\einstein\code\framwork\Einstein.UnitTest\obj\Debug\Einstein.UnitTest.dll
+D:\workspace\einstein\code\framwork\Einstein.UnitTest\obj\Debug\Einstein.UnitTest.pdb
+D:\workspace\einstein\code\framwork\Einstein.UnitTest\bin\Debug\Einstein.Data.dll
+D:\workspace\einstein\code\framwork\Einstein.UnitTest\bin\Debug\Einstein.Data.pdb
+D:\workspace\einstein\code\framwork\Einstein.UnitTest\bin\Debug\Einstein.UnitTest.dll.config

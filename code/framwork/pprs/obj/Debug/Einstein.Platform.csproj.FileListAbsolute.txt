@@ -1,0 +1,16 @@
+D:\workspace\einstein\code\framwork\pprs\obj\Debug\ResolveAssemblyReference.cache
+D:\workspace\einstein\code\framwork\pprs\obj\Debug\Einstein.Platform.Properties.Resources.resources
+D:\workspace\einstein\code\framwork\pprs\obj\Debug\GenerateResource.read.1.tlog
+D:\workspace\einstein\code\framwork\pprs\obj\Debug\GenerateResource.write.1.tlog
+D:\workspace\einstein\code\framwork\pprs\bin\Debug\Einstein.Platform.exe.config
+D:\workspace\einstein\code\framwork\pprs\bin\Debug\Einstein.Platform.exe
+D:\workspace\einstein\code\framwork\pprs\bin\Debug\Einstein.Platform.pdb
+D:\workspace\einstein\code\framwork\pprs\obj\Debug\Einstein.Platform.exe
+D:\workspace\einstein\code\framwork\pprs\obj\Debug\Einstein.Platform.pdb
+D:\workspace\einstein\code\framwork\pprs\bin\Debug\Einstein.Data.dll
+D:\workspace\einstein\code\framwork\pprs\bin\Debug\Einstein.Data.pdb
+D:\workspace\einstein\code\framwork\pprs\obj\Debug\Einstein.BalloonSearch.resources
+D:\workspace\einstein\code\framwork\pprs\obj\Debug\Einstein.ColorPicker.resources
+D:\workspace\einstein\code\framwork\pprs\obj\Debug\Einstein.frmAbout.resources
+D:\workspace\einstein\code\framwork\pprs\obj\Debug\Einstein.Platform.frmMain.resources
+D:\workspace\einstein\code\framwork\pprs\obj\Debug\Einstein.Platform.frmDocument.resources

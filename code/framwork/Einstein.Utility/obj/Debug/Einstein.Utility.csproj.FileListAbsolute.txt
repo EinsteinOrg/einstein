@@ -1,0 +1,5 @@
+D:\workspace\einstein\code\framwork\Einstein.Utility\bin\Debug\Einstein.Utility.dll
+D:\workspace\einstein\code\framwork\Einstein.Utility\bin\Debug\Einstein.Utility.pdb
+D:\workspace\einstein\code\framwork\Einstein.Utility\obj\Debug\ResolveAssemblyReference.cache
+D:\workspace\einstein\code\framwork\Einstein.Utility\obj\Debug\Einstein.Utility.dll
+D:\workspace\einstein\code\framwork\Einstein.Utility\obj\Debug\Einstein.Utility.pdb

@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EinsteinModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="EinsteinEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="CardInfo" EntityType="EinsteinModel.CardInfo" />
+    <EntitySet Name="DeptInfo" EntityType="EinsteinModel.DeptInfo" />
+    <EntitySet Name="MachineManageInfo" EntityType="EinsteinModel.MachineManageInfo" />
+    <EntitySet Name="MechineInfo" EntityType="EinsteinModel.MechineInfo" />
+    <EntitySet Name="MenuAuthInfo" EntityType="EinsteinModel.MenuAuthInfo" />
+    <EntitySet Name="MenuInfo" EntityType="EinsteinModel.MenuInfo" />
+    <EntitySet Name="RoleAuth" EntityType="EinsteinModel.RoleAuth" />
+    <EntitySet Name="RoleInfo" EntityType="EinsteinModel.RoleInfo" />
+    <EntitySet Name="RoleUserInfo" EntityType="EinsteinModel.RoleUserInfo" />
+    <EntitySet Name="SystemLog" EntityType="EinsteinModel.SystemLog" />
+    <EntitySet Name="UserInfo" EntityType="EinsteinModel.UserInfo" />
+    <EntitySet Name="UserTypeInfo" EntityType="EinsteinModel.UserTypeInfo" />
+  </EntityContainer>
+  <EntityType Name="CardInfo">
+    <Key>
+      <PropertyRef Name="CardID" />
+    </Key>
+    <Property Name="CardID" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="PhysicalID" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="Status" Type="Int32" Nullable="false" />
+    <Property Name="ActivateDate" Type="DateTime" />
+    <Property Name="ActivatePerson" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="CancelDate" Type="DateTime" />
+    <Property Name="CancelPerson" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="DeptInfo">
+    <Key>
+      <PropertyRef Name="DeptID" />
+    </Key>
+    <Property Name="DeptID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DeptName" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ParentID" Type="Int32" Nullable="false" />
+    <Property Name="Desc" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="MachineManageInfo">
+    <Key>
+      <PropertyRef Name="ManageDeptID" />
+    </Key>
+    <Property Name="ManageDeptID" Type="Int32" Nullable="false" />
+    <Property Name="ManageDeptName" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ParentID" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="MechineInfo">
+    <Key>
+      <PropertyRef Name="MechineID" />
+    </Key>
+    <Property Name="MechineID" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Location" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="ManageDeptID" Type="Int32" Nullable="false" />
+    <Property Name="MachineTypeID" Type="Int32" Nullable="false" />
+    <Property Name="CommunicationInterface" Type="Int32" Nullable="false" />
+    <Property Name="IPAdress" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="SubnetMask" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Gateway" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Port" Type="Int32" />
+    <Property Name="Desc" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="MenuAuthInfo">
+    <Key>
+      <PropertyRef Name="ButtonID" />
+    </Key>
+    <Property Name="ButtonID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BelongMenu" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ButtonName" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="MenuInfo">
+    <Key>
+      <PropertyRef Name="MenuID" />
+    </Key>
+    <Property Name="MenuID" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="MenuName" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="ParentID" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ShortcutKey" Type="String" MaxLength="1" Unicode="false" FixedLength="true" />
+    <Property Name="IconName" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ObjectName" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ObjectParameters" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="RoleAuth">
+    <Key>
+      <PropertyRef Name="RoleID" />
+      <PropertyRef Name="MenuID" />
+      <PropertyRef Name="ButtonID" />
+    </Key>
+    <Property Name="RoleID" Type="Int32" Nullable="false" />
+    <Property Name="MenuID" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ButtonID" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="RoleInfo">
+    <Key>
+      <PropertyRef Name="RoleID" />
+    </Key>
+    <Property Name="RoleID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RoleName" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Desc" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+    <Property Name="CreatePerson" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="CreateTime" Type="DateTime" Nullable="false" />
+    <Property Name="UpdatePerson" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="UpdateTime" Type="DateTime" />
+  </EntityType>
+  <EntityType Name="RoleUserInfo">
+    <Key>
+      <PropertyRef Name="RoleID" />
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="RoleID" Type="Int32" Nullable="false" />
+    <Property Name="UserID" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="SystemLog">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Operator" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="OperateTime" Type="DateTime" Nullable="false" />
+    <Property Name="Detail" Type="String" Nullable="false" MaxLength="200" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="UserInfo">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="UserName" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="DeptID" Type="Int32" Nullable="false" />
+    <Property Name="CardID" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="PhysicalID" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="UserTypeID" Type="Int32" />
+    <Property Name="Sex" Type="Int32" Nullable="false" />
+    <Property Name="PhoneNumber" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ActivateDate" Type="DateTime" Nullable="false" />
+    <Property Name="CancelDate" Type="DateTime" />
+  </EntityType>
+  <EntityType Name="UserTypeInfo">
+    <Key>
+      <PropertyRef Name="UserTypeID" />
+    </Key>
+    <Property Name="UserTypeID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserTypeName" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Desc" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+  </EntityType>
+</Schema>

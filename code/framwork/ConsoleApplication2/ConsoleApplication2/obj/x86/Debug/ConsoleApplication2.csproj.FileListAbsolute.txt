@@ -1,0 +1,8 @@
+D:\workspace\einstein\code\framwork\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe.config
+D:\workspace\einstein\code\framwork\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe
+D:\workspace\einstein\code\framwork\ConsoleApplication2\ConsoleApplication2\bin\Debug\ConsoleApplication2.pdb
+D:\workspace\einstein\code\framwork\ConsoleApplication2\ConsoleApplication2\bin\Debug\EntityFramework.dll
+D:\workspace\einstein\code\framwork\ConsoleApplication2\ConsoleApplication2\bin\Debug\EntityFramework.xml
+D:\workspace\einstein\code\framwork\ConsoleApplication2\ConsoleApplication2\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\workspace\einstein\code\framwork\ConsoleApplication2\ConsoleApplication2\obj\x86\Debug\ConsoleApplication2.exe
+D:\workspace\einstein\code\framwork\ConsoleApplication2\ConsoleApplication2\obj\x86\Debug\ConsoleApplication2.pdb

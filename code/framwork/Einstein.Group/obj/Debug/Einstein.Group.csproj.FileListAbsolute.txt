@@ -1,0 +1,5 @@
+D:\workspace\einstein\code\framwork\Einstein.Group\bin\Debug\Einstein.Group.dll
+D:\workspace\einstein\code\framwork\Einstein.Group\bin\Debug\Einstein.Group.pdb
+D:\workspace\einstein\code\framwork\Einstein.Group\obj\Debug\ResolveAssemblyReference.cache
+D:\workspace\einstein\code\framwork\Einstein.Group\obj\Debug\Einstein.Group.dll
+D:\workspace\einstein\code\framwork\Einstein.Group\obj\Debug\Einstein.Group.pdb

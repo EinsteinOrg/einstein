@@ -1,0 +1,9 @@
+D:\workspace\einstein\code\framwork\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+D:\workspace\einstein\code\framwork\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+D:\workspace\einstein\code\framwork\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\workspace\einstein\code\framwork\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+D:\workspace\einstein\code\framwork\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\workspace\einstein\code\framwork\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\workspace\einstein\code\framwork\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\workspace\einstein\code\framwork\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+D:\workspace\einstein\code\framwork\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb

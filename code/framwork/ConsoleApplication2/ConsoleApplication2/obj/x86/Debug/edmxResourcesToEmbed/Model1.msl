@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EinsteinModelStoreContainer" CdmEntityContainer="EinsteinEntities">
+    <EntitySetMapping Name="CardInfo">
+      <EntityTypeMapping TypeName="EinsteinModel.CardInfo">
+        <MappingFragment StoreEntitySet="CardInfo">
+          <ScalarProperty Name="CardID" ColumnName="CardID" />
+          <ScalarProperty Name="PhysicalID" ColumnName="PhysicalID" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="ActivateDate" ColumnName="ActivateDate" />
+          <ScalarProperty Name="ActivatePerson" ColumnName="ActivatePerson" />
+          <ScalarProperty Name="CancelDate" ColumnName="CancelDate" />
+          <ScalarProperty Name="CancelPerson" ColumnName="CancelPerson" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DeptInfo">
+      <EntityTypeMapping TypeName="EinsteinModel.DeptInfo">
+        <MappingFragment StoreEntitySet="DeptInfo">
+          <ScalarProperty Name="DeptID" ColumnName="DeptID" />
+          <ScalarProperty Name="DeptName" ColumnName="DeptName" />
+          <ScalarProperty Name="ParentID" ColumnName="ParentID" />
+          <ScalarProperty Name="Desc" ColumnName="Desc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MachineManageInfo">
+      <EntityTypeMapping TypeName="EinsteinModel.MachineManageInfo">
+        <MappingFragment StoreEntitySet="MachineManageInfo">
+          <ScalarProperty Name="ManageDeptID" ColumnName="ManageDeptID" />
+          <ScalarProperty Name="ManageDeptName" ColumnName="ManageDeptName" />
+          <ScalarProperty Name="ParentID" ColumnName="ParentID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MechineInfo">
+      <EntityTypeMapping TypeName="EinsteinModel.MechineInfo">
+        <MappingFragment StoreEntitySet="MechineInfo">
+          <ScalarProperty Name="MechineID" ColumnName="MechineID" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="ManageDeptID" ColumnName="ManageDeptID" />
+          <ScalarProperty Name="MachineTypeID" ColumnName="MachineTypeID" />
+          <ScalarProperty Name="CommunicationInterface" ColumnName="CommunicationInterface" />
+          <ScalarProperty Name="IPAdress" ColumnName="IPAdress" />
+          <ScalarProperty Name="SubnetMask" ColumnName="SubnetMask" />
+          <ScalarProperty Name="Gateway" ColumnName="Gateway" />
+          <ScalarProperty Name="Port" ColumnName="Port" />
+          <ScalarProperty Name="Desc" ColumnName="Desc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MenuAuthInfo">
+      <EntityTypeMapping TypeName="EinsteinModel.MenuAuthInfo">
+        <MappingFragment StoreEntitySet="MenuAuthInfo">
+          <ScalarProperty Name="ButtonID" ColumnName="ButtonID" />
+          <ScalarProperty Name="BelongMenu" ColumnName="BelongMenu" />
+          <ScalarProperty Name="ButtonName" ColumnName="ButtonName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MenuInfo">
+      <EntityTypeMapping TypeName="EinsteinModel.MenuInfo">
+        <MappingFragment StoreEntitySet="MenuInfo">
+          <ScalarProperty Name="MenuID" ColumnName="MenuID" />
+          <ScalarProperty Name="MenuName" ColumnName="MenuName" />
+          <ScalarProperty Name="ParentID" ColumnName="ParentID" />
+          <ScalarProperty Name="ShortcutKey" ColumnName="ShortcutKey" />
+          <ScalarProperty Name="IconName" ColumnName="IconName" />
+          <ScalarProperty Name="ObjectName" ColumnName="ObjectName" />
+          <ScalarProperty Name="ObjectParameters" ColumnName="ObjectParameters" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RoleAuth">
+      <EntityTypeMapping TypeName="EinsteinModel.RoleAuth">
+        <MappingFragment StoreEntitySet="RoleAuth">
+          <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+          <ScalarProperty Name="MenuID" ColumnName="MenuID" />
+          <ScalarProperty Name="ButtonID" ColumnName="ButtonID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RoleInfo">
+      <EntityTypeMapping TypeName="EinsteinModel.RoleInfo">
+        <MappingFragment StoreEntitySet="RoleInfo">
+          <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+          <ScalarProperty Name="RoleName" ColumnName="RoleName" />
+          <ScalarProperty Name="Desc" ColumnName="Desc" />
+          <ScalarProperty Name="CreatePerson" ColumnName="CreatePerson" />
+          <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+          <ScalarProperty Name="UpdatePerson" ColumnName="UpdatePerson" />
+          <ScalarProperty Name="UpdateTime" ColumnName="UpdateTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RoleUserInfo">
+      <EntityTypeMapping TypeName="EinsteinModel.RoleUserInfo">
+        <MappingFragment StoreEntitySet="RoleUserInfo">
+          <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SystemLog">
+      <EntityTypeMapping TypeName="EinsteinModel.SystemLog">
+        <MappingFragment StoreEntitySet="SystemLog">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Operator" ColumnName="Operator" />
+          <ScalarProperty Name="OperateTime" ColumnName="OperateTime" />
+          <ScalarProperty Name="Detail" ColumnName="Detail" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserInfo">
+      <EntityTypeMapping TypeName="EinsteinModel.UserInfo">
+        <MappingFragment StoreEntitySet="UserInfo">
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="DeptID" ColumnName="DeptID" />
+          <ScalarProperty Name="CardID" ColumnName="CardID" />
+          <ScalarProperty Name="PhysicalID" ColumnName="PhysicalID" />
+          <ScalarProperty Name="UserTypeID" ColumnName="UserTypeID" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="ActivateDate" ColumnName="ActivateDate" />
+          <ScalarProperty Name="CancelDate" ColumnName="CancelDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserTypeInfo">
+      <EntityTypeMapping TypeName="EinsteinModel.UserTypeInfo">
+        <MappingFragment StoreEntitySet="UserTypeInfo">
+          <ScalarProperty Name="UserTypeID" ColumnName="UserTypeID" />
+          <ScalarProperty Name="UserTypeName" ColumnName="UserTypeName" />
+          <ScalarProperty Name="Desc" ColumnName="Desc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
