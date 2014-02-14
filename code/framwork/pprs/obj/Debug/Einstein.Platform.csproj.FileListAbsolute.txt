@@ -14,3 +14,6 @@ D:\workspace\einstein\code\framwork\pprs\obj\Debug\Einstein.ColorPicker.resource
 D:\workspace\einstein\code\framwork\pprs\obj\Debug\Einstein.frmAbout.resources
 D:\workspace\einstein\code\framwork\pprs\obj\Debug\Einstein.Platform.frmMain.resources
 D:\workspace\einstein\code\framwork\pprs\obj\Debug\Einstein.Platform.frmDocument.resources
+D:\einstein\einstein\code\framwork\pprs\bin\Debug\Einstein.Platform.exe.config
+D:\einstein\einstein\code\framwork\pprs\obj\Debug\Einstein.Platform.exe
+D:\einstein\einstein\code\framwork\pprs\obj\Debug\Einstein.Platform.pdb
