@@ -24,25 +24,6 @@ Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = framwork.vsmdi
 	EndGlobalSection
-	GlobalSection(SourceCodeControl) = preSolution
-		SccNumberOfProjects = 6
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = Einstein.Data\\Einstein.Data.csproj
-		SccLocalPath1 = .
-		SccProjectFilePathRelativizedFromConnection1 = Einstein.Data\\
-		SccProjectUniqueName2 = pprs\\Einstein.Platform.csproj
-		SccLocalPath2 = .
-		SccProjectFilePathRelativizedFromConnection2 = pprs\\
-		SccProjectUniqueName3 = Einstein.Group\\Einstein.Group.csproj
-		SccLocalPath3 = .
-		SccProjectFilePathRelativizedFromConnection3 = Einstein.Group\\
-		SccProjectUniqueName4 = Einstein.UnitTest\\Einstein.UnitTest.csproj
-		SccLocalPath4 = .
-		SccProjectFilePathRelativizedFromConnection4 = Einstein.UnitTest\\
-		SccProjectUniqueName5 = Einstein.Utility\\Einstein.Utility.csproj
-		SccLocalPath5 = .
-		SccProjectFilePathRelativizedFromConnection5 = Einstein.Utility\\
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|Mixed Platforms = Debug|Mixed Platforms
